@@ -3,13 +3,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hospital Management System</title>
+  <title >Hospital Management System</title>
 </head>
 <body> 
-  <input type="button" value="click" (click)="callsomelogic()"/>
+ 
   <app-header></app-header>
   <app-footer></app-footer>
-<h1>{{title}}</h1>
+<h1 style="color:Tomato;">{{title}}</h1>
+<input type="text" value="" [(ngModel)]="SomeValue" />
+<input type="button" value="ADD" (click)="callsomelogic()"/>
+
+<table>
+  <tr>
+    <td>
+      {{SomeValue}}
+    </td>
+  </tr>
+  <tr *ngFor="let temp of Somevalues">
+    <td>
+        {{temp.value}
+    </td>
+  </tr>
+  
+</table>
+
 </body>
 </html>
 

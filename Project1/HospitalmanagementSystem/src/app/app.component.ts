@@ -7,11 +7,14 @@ import { FooterComponent } from './shared/footer/footer.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'HospitalmanagementSystem';
+  title = 'HospitalmanagementSystem chaaturya';
+  SomeValue:string="";
+  Somevalues: string[] = [];
+  vinod:Array<string>=new Array<string>();
   callsomelogic()
   {
-    alert("Hello");
-    
+    this.Somevalues.push(this.SomeValue);
+    this.SomeValue="";
   }
 
 }
