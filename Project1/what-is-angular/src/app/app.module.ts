@@ -13,6 +13,10 @@ import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './body/menu/menu.component';
 import { Menu1Component } from './body/menu1/menu1.component';
 import { Menu2Component } from './header/menu2/menu2.component';
+import { StringbindingComponent } from './1Notes/stringbinding/stringbinding.component';
+import { PropertybindingComponent } from './1Notes/propertybinding/propertybinding.component';
+import { ClassbindingComponent } from './1Notes/classbinding/classbinding.component';
+
 
 
 
@@ -29,7 +33,11 @@ import { Menu2Component } from './header/menu2/menu2.component';
     FooterComponent,
     MenuComponent,
     Menu1Component,
-    Menu2Component
+    Menu2Component,
+     StringbindingComponent,
+     PropertybindingComponent,
+     ClassbindingComponent
+
   ],
   imports: [
     BrowserModule
